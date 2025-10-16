@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertitore Numeri Romani</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="converter-container">
+        <h1>Convertitore Numeri Romani</h1>
+        
+        <div class="input-group">
+            <label for="decimal-input">Numero Decimale:</label>
+            <input type="number" id="decimal-input" placeholder="Es: 1984">
+            <button id="convert-to-roman">Converti in Romano</button>
+        </div>
+        
+        <div class="input-group">
+            <label for="roman-input">Numero Romano:</label>
+            <input type="text" id="roman-input" placeholder="Es: MCMLXXXIV">
+            <button id="convert-to-decimal">Converti in Decimale</button>
+        </div>
+
+        <div class="output-container">
+            <h3>Risultato:</h3>
+            <p id="output-result"></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
